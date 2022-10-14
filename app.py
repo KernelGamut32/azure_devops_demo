@@ -6,6 +6,8 @@ from flask_restful import Api, Resource
 # Creating the app
 app = Flask(__name__)
 
+# Adding new comment
+
 # Initiating the API
 api = Api(app)
 CORS(app, resources={r"/*": {"origins": "*"}})
